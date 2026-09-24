@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonard Sekar J S | Computer Science Engineer</title>
+<meta name="description" content="Portfolio of Leonard Sekar J S, a final-year Computer Science Engineering student building web applications, IoT systems and computer-vision projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="logo" href="#home">Leonard Sekar J S</a>
+  <button class="burger" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+  <nav id="menu" aria-label="Main">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#assistant">AI Assistant</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="glow" aria-hidden="true"></div>
+    <span class="orb o1" data-depth="70" aria-hidden="true"></span>
+    <span class="orb o2" data-depth="-45" aria-hidden="true"></span>
+    <span class="orb o3" data-depth="30" aria-hidden="true"></span>
+    <div class="wrap hero-copy">
+      <h1>Leonard Sekar J S</h1>
+      <p class="tagline">Computer Science engineer who builds web applications, IoT systems and computer-vision tools.</p>
+      <p class="intro">I'm a final-year B.E. Computer Science and Engineering student at St. Xavier's Catholic College of Engineering, Chunkankadai, with hands-on experience as a Web Developer Intern at Entuite Technologies. I build functional, user-focused software, from a PHP-MySQL student records system to a machine learning model that reads fruit ripeness. I'm looking for a software engineering role where I can solve real-world problems.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">See my projects</a>
+        <a class="btn ghost" href="#assistant">Talk to my AI assistant</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="about">
+    <div class="wrap split">
+      <div class="reveal">
+        <h2>About</h2>
+        <p>I'm a Computer Science Engineering undergraduate with internship experience in web application development and a strong foundation in programming, databases and software design. My independent projects range from IoT and computer vision to full-stack web systems, and I'm comfortable across the SDLC: requirement analysis, design, coding, unit testing and debugging.</p>
+        <p>Outside the code, I lead as an NSS Leader, coordinating volunteer teams and community outreach. I work well in teams and enjoy practising data structures and entering hackathons.</p>
+      </div>
+      <dl class="facts reveal">
+        <div><dt>Education</dt><dd>B.E. Computer Science and Engineering, 2023 to 2027, St. Xavier's Catholic College of Engineering. CGPA 7.9 / 10.</dd></div>
+        <div><dt>Experience</dt><dd>Web Developer Intern, Entuite Technologies. Built responsive web applications across front end and back end.</dd></div>
+        <div><dt>Recognition</dt><dd>1st and 2nd prizes in college hackathons and symposiums. Participant in the Dark Patterns Buster Hackathon and Hack2skill PromptWars.</dd></div>
+        <div><dt>Certified in</dt><dd>NPTEL Introduction to IoT, Oracle PL/SQL, MongoDB, AWS Cloud Fundamentals, MS Office. Hands-on labs in Google Cloud Skills Boost and Snowflake.</dd></div>
+        <div><dt>Activities</dt><dd>NSS Leader, Bharat Scouts and Guides member, Cyber Security Club member at SXCCE.</dd></div>
+        <div><dt>Languages</dt><dd>English, Tamil, Hindi (basic).</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="sec tint-mint" id="skills">
+    <div class="wrap">
+      <h2 class="reveal">Skills</h2>
+      <div class="grid skills">
+        <article class="reveal"><h3>Programming</h3><ul class="tags"><li>Java</li><li>C</li><li>C++</li><li>Python</li><li>PHP</li></ul></article>
+        <article class="reveal"><h3>Web</h3><ul class="tags"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Responsive Web Design</li><li>UI/UX Fundamentals</li></ul></article>
+        <article class="reveal"><h3>Databases</h3><ul class="tags"><li>MySQL</li><li>MariaDB</li><li>Oracle PL/SQL</li><li>MongoDB (basics)</li><li>Snowflake SQL</li></ul></article>
+        <article class="reveal"><h3>Cloud</h3><ul class="tags"><li>AWS Fundamentals</li><li>Google Cloud: Compute Engine, Cloud Storage, Load Balancing</li></ul></article>
+        <article class="reveal"><h3>Tools and platforms</h3><ul class="tags"><li>VS Code</li><li>Git and GitHub</li><li>XAMPP</li><li>phpMyAdmin</li><li>Selenium (Python)</li><li>Android Studio</li><li>Figma</li><li>Blender</li><li>MS Office</li></ul></article>
+        <article class="reveal"><h3>Engineering practice</h3><ul class="tags"><li>OOP</li><li>SDLC</li><li>Agile teamwork</li><li>Unit testing and debugging</li><li>Code review</li><li>Prompt engineering</li></ul></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="projects">
+    <div class="wrap">
+      <h2 class="reveal">Projects</h2>
+      <div class="grid projects">
+        <article class="card reveal">
+          <h3>Student Management System</h3>
+          <p>A database-driven application to manage student records with full create, read, update and delete operations. Includes search, sort and bulk-clear features, plus server-side validation that blocks invalid and duplicate entries.</p>
+          <ul class="tags"><li>PHP</li><li>MySQL / MariaDB</li><li>XAMPP</li><li>phpMyAdmin</li><li>HTML/CSS</li></ul>
+          <!-- Add the project link (GitHub repo or live demo) here -->
+          <a class="more" href="#">View project</a>
+        </article>
+        <article class="card reveal">
+          <h3>EcoTrack AI</h3>
+          <p>A carbon footprint awareness platform that calculates a user's footprint from transport, electricity, food and waste inputs, then shows results and improvement suggestions on a responsive dashboard.</p>
+          <ul class="tags"><li>Python</li><li>Web stack</li><li>MySQL</li></ul>
+          <!-- Add the project link (GitHub repo or live demo) here -->
+          <a class="more" href="#">View project</a>
+        </article>
+        <article class="card reveal">
+          <h3>AI Fruit Ripening Detection</h3>
+          <p>An image-analysis application that classifies fruit into ripeness stages. Covers dataset preparation, model training and accuracy testing.</p>
+          <ul class="tags"><li>Python</li><li>Machine learning</li><li>Image processing</li></ul>
+          <!-- Add the project link (GitHub repo or live demo) here -->
+          <a class="more" href="#">View project</a>
+        </article>
+        <article class="card reveal">
+          <h3>Event Management System</h3>
+          <p>A web-based platform that streamlines the planning, scheduling and coordination of events.</p>
+          <ul class="tags"><li>Web application</li></ul>
+          <!-- Add the project link (GitHub repo or live demo) here -->
+          <a class="more" href="#">View project</a>
+        </article>
+        <article class="card reveal">
+          <h3>AR Rock Paper Scissors</h3>
+          <p>An augmented reality game that recognises hand gestures, applying computer vision and interactive design principles.</p>
+          <ul class="tags"><li>Computer vision</li><li>Gesture recognition</li><li>Augmented reality</li></ul>
+          <!-- Add the project link (GitHub repo or live demo) here -->
+          <a class="more" href="#">View project</a>
+        </article>
+        <article class="card reveal">
+          <h3>Smart Wildlife Threat Alert System</h3>
+          <p>A sensor-based IoT monitoring system that detects wildlife-related threats and sends alerts.</p>
+          <ul class="tags"><li>IoT sensors</li><li>Alerting</li></ul>
+          <!-- Add the project link (GitHub repo or live demo) here -->
+          <a class="more" href="#">View project</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec tint-lilac" id="assistant">
+    <div class="wrap">
+      <h2 class="reveal">Talk to my AI Assistant</h2>
+      <p class="lede reveal">Ask my AI assistant about my projects, skills and experience. If it has been idle, give it a few seconds to wake up, or <a href="https://leonard-sekar-ai-assistant-7sky2yepmpdkx7qxb9eqk7.streamlit.app/" target="_blank" rel="noopener">open it in a new tab</a>.</p>
+      <iframe class="assistant reveal" src="https://leonard-sekar-ai-assistant-7sky2yepmpdkx7qxb9eqk7.streamlit.app/?embed=true" title="Leonard's AI Assistant" width="100%" height="600" style="border:0" loading="lazy" allow="clipboard-write"></iframe>
+    </div>
+  </section>
+</main>
+
+<footer class="sec foot" id="contact">
+  <div class="wrap">
+    <h2>Let's work together</h2>
+    <p class="lede">I'm open to software engineering roles. The quickest way to reach me is email.</p>
+    <ul class="contact">
+      <li><a href="mailto:leonard.112314@sxcce.edu.in">leonard.112314@sxcce.edu.in</a></li>
+      <li><a href="https://www.linkedin.com/in/leonard-sekar-j-s/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <!-- Add your GitHub profile URL here -->
+      <li><a href="https://github.com/leonard-sekar/" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.instagram.com/_leo.js" target="_blank" rel="noopener">Instagram</a></li>
+    </ul>
+    <p class="small">Mulagumoodu, Kanyakumari District, Tamil Nadu. &copy; 2026 Leonard Sekar J S.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
