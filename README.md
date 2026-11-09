@@ -76,6 +76,7 @@ This site is intended for GitHub Pages and is available at [https://leonard-seka
 - **Email:** [leonard.112314@sxcce.edu.in](mailto:leonard.112314@sxcce.edu.in)
 - **GitHub:** [@leonard-sekar](https://github.com/leonard-sekar)
 - **LinkedIn:** [Leonard Sekar J S](https://www.linkedin.com/in/leonard-sekar-j-s/)
+- **Instagram:** [@_leo.js](https://instagram.com/_leo.js)
 
 ---
 
